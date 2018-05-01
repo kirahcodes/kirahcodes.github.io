@@ -146,13 +146,14 @@ body {
     font-weight: 500;
     font-size: 1.1em;
     color: #525252;
-    
     transition-property: background, color;
     transition-timing-function: ease-in-out;
     transition-duration: 0.275s;
 }
 
-.github-btn i { padding-right: 5px; }
+.github-btn i {
+    padding-right: 5px;
+}
 
 .github-btn:hover {
     background: #525252;
@@ -195,9 +196,8 @@ body {
     background-position: center;
 }
 
-
-
 /* ============================== FOOTER STYLES ============================== */
+
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -224,7 +224,6 @@ body {
     color: #525252;
     text-decoration: none;
     font-size: 1.5em;
-
     transition-property: color;
     transition-duration: 0.275s;
     transition-timing-function: ease-in-out;
