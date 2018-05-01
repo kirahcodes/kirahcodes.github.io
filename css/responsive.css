@@ -2,25 +2,32 @@
     .container {
         width: 95%;
     }
+
     .header {
         display: block;
     }
+
     .header-logo {
         display: none;
     }
+    
     .header-right {
         display: block;
         width: 100%;
         text-align: center;
     }
+
     .hero-section {
         display: none;
     }
+
     .featured-work h1 {
         text-align: center;
     }
-    .featured-items {
-        grid-template-columns: 1fr;
+    
+    .featured-project {
+        width: 100%;
+        margin: 15px auto;
     }
 }
 
@@ -28,12 +35,19 @@
     .container {
         width: 90%;
     }
+
     .header {
         display: flex;
     }
+
     .hero-section {
         height: 150px;
         line-height: 150px;
+    }
+
+    .featured-project {
+        width: 45%;
+        margin: 15px auto;
     }
 }
 
