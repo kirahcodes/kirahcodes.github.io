@@ -141,7 +141,7 @@ body {
 
 .github-btn {
     box-sizing: border-box;
-    width: 100%;
+    width: 48%;
     padding: 8px 10px;
     /* margin-bottom: 10px; */
     border: solid 2px #525252;
@@ -156,11 +156,39 @@ body {
     transition-duration: 0.275s;
 }
 
-.github-btn i { padding-right: 5px; }
+.codepen-btn {
+    box-sizing: border-box;
+    width: 48%;
+    padding: 8px 10px;
+    /* margin-bottom: 10px; */
+
+    border: solid 2px rgb(31, 180, 180);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: rgb(31, 180, 180);
+    transition-property: background,
+    color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.275s;
+}
+
+.github-btn i, 
+.codepen-btn i { padding-right: 5px; }
 
 .github-btn:hover {
     background: #525252;
     color: white;
+}
+
+.codepen-btn:hover {
+    background: rgb(31, 180, 180);
+    color: white;
+}
+
+.codepen-btn {
+    margin-left: 10px;
 }
 
 #project-img1 {
